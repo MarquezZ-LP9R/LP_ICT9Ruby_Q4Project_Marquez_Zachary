@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #skyblue;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+        background-color: skyblue;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="q3 p1.png" alt="Image 1">
+        <img src="q3 p2.png" alt="Image 2">
+        <img src="q3 p3.png" alt="Image 3">
+        <img src="q3 p4.png" alt="Image 4">
+        <img src="q3 p5.png" alt="Image 5">
+        <img src="q3 p6.png" alt="Image 6">
+    </div>
+    <a href="LP_ICT9Ruby_Q4Quiz1_Marquez_Zachary.htl.html" class="btn btn-primary">Go back to Main Page</a>
+</body>
+</html>
